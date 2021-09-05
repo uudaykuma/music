@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background-color: #030303
-} */
+body{
+    background-color: #03203C
+}
 
 .container{
     width: 80%;
@@ -20,7 +20,11 @@
     align-items: center;
 }
 
-#canvas{
-    border: 1px solid black;
+.btn-div{
+    margin: 50px;
 }
-
+.btn-div > button{
+    width:60px;
+    height:60px;
+    font-size:30px
+}
