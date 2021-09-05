@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: #030303
+} */
+
+.container{
+    width: 80%;
+    height: 60vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas{
+    border: 1px solid black;
+}
+
