@@ -20,7 +20,7 @@ let count = 0
 function dynamicProgressBar() {
   var audioDemo = document.getElementById('player');
   var elapsedTime = Math.round(audioDemo.currentTime);
-  ctx.fillStyle = "red"
+  ctx.fillStyle = "#02B290"
   var fWidth = (elapsedTime / audioDemo.duration) * (canvas.clientWidth );
   console.log(fWidth)
   count+= 5
