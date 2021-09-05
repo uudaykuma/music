@@ -25,5 +25,8 @@ body{
 .btn-div > button{
     width:60px;
     height:60px;
-    font-size:30px
+    font-size:30px;
+    background-color: #03203C;
+    border-radius: 50%;
+    color: aquamarine;
 }
